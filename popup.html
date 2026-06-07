@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500&display=swap');
+    
+    body {
+      width: 380px;
+      font-family: 'Noto Serif SC', serif;
+      background: linear-gradient(135deg, #f8f1eb 0%, #e8f0e8 100%);
+      color: #5c5c5c;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .header {
+      background: rgba(255,255,255,0.85);
+      padding: 15px 20px;
+      text-align: center;
+      border-bottom: 1px solid #d8e0d8;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 18px;
+      color: #6b8e6b;
+      letter-spacing: 2px;
+    }
+    
+    .tabs {
+      display: flex;
+      background: #fff;
+    }
+    
+    .tab {
+      flex: 1;
+      padding: 12px;
+      text-align: center;
+      cursor: pointer;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s ease;
+    }
+    
+    .tab.active {
+      color: #6b8e6b;
+      border-bottom: 3px solid #6b8e6b;
+      font-weight: 500;
+    }
+    
+    .content {
+      padding: 20px;
+    }
+    
+    textarea {
+      width: 90%;
+      height: 160px;
+      border: 1px solid #d1d9d1;
+      border-radius: 12px;
+      padding: 14px;
+      font-size: 14px;
+      resize: vertical;
+      background: #fff;
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.03);
+    }
+    
+    button {
+      width: 100%;
+      padding: 14px;
+      background: #a8c4b8;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 15px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(168, 196, 184, 0.3);
+    }
+    
+    button:hover {
+      background: #8fb39d;
+      transform: translateY(-2px);
+    }
+    
+    .status {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 13px;
+      min-height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>LiteBlock</h1>
+    <div class="subtitle">批量屏蔽用户</div>
+  </div>
+  
+  <div class="tabs">
+    <div class="tab active" data-tab="1">用户名模式</div>
+    <div class="tab" data-tab="2">发帖内容模式</div>
+  </div>
+  
+  <div class="content">
+    <div id="tab1">
+      <textarea id="usernames" placeholder="输入用户名，支持屏蔽多个用户名关键词
+用逗号、顿号或换行分隔
+例如：赌博, 处男, 同城上门, 野战, 炮友"></textarea>
+    </div>
+    
+    <div id="tab2" style="display:none;">
+      <textarea id="contents" placeholder="输入发帖相关内容，支持屏蔽多个内容关键词
+用逗号、顿号或换行分隔
+例如：@6QOO0，@acrmrve，@BLACQKL_1"></textarea>
+    </div>
+    
+    <button id="executeBtn">开始批量屏蔽</button>
+    <div class="status" id="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
