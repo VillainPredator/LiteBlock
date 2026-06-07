@@ -85,10 +85,10 @@ qingfeng-x-block/
 ├── content.js
 ├── README.md
 └── icons/
-├── icon16.png
-├── icon48.png
-├── icon128.png
-└── icon256.png 
+  ├── icon16.png
+  ├── icon48.png
+  ├── icon128.png
+  └── icon256.png 
 
 ## 📋 更新日志
 
@@ -105,6 +105,6 @@ qingfeng-x-block/
 - 请遵守 X 平台的服务条款，避免滥用
 
 ---
-**清风徐来，希望换大家一个清爽的沟通天地。**
+**清风徐来，希望换大家一个清爽的沟通环境。**
 如有问题或需要新增功能（速度控制、黑名单导出、深色模式等），欢迎反馈。
 
