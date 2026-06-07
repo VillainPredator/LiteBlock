@@ -21,7 +21,10 @@ Chrome extension for batch block users on Twitter(x.com)
 
 ---
 ## 📥 安装方法
-1. 下载或解压插件文件夹（文件夹名称建议为 `LiteBlock`）
+1. 下载LiteBlock.crx文件。
+2. 打开 Chrome 浏览器，将LiteBlock.crx拖入浏览器安装即可加载。
+----方法二
+1. 下载LiteBlock.zip或解压插件文件夹（文件夹名称建议为 `LiteBlock`）
 2. 打开 Chrome 浏览器，访问 `chrome://extensions/`
 3. 开启右上角的 **「开发者模式」**
 4. 点击左侧 **「加载已解压的扩展程序」**
