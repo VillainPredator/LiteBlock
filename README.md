@@ -5,7 +5,7 @@ Chrome extension for batch block users on Twitter(x.com)
 **文艺清新风格的 X.com（Twitter）批量用户屏蔽插件**
 一个界面淡雅、操作简便的 Chrome 浏览器扩展，帮助用户在 X 平台快速批量屏蔽指定用户。
 
-![LiteBlock界面预览](https://via.placeholder.com/600x400/ f5f0eb/5f8a6f?text=LiteBlock·X)
+![LiteBlock界面预览](https://github.com/VillainPredator/LiteBlock/blob/main/LiteBlock.v1.3.png)
 
 ---
 ## ✨ 功能特点
