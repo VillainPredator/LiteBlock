@@ -32,6 +32,7 @@ Chrome extension for batch block users on Twitter(x.com)
 - `icons/icon48.png`
 - `icons/icon128.png`
 - `icons/icon256.png`
+https://github.com/VillainPredator/LiteBlock/blob/main/icons/icon256.png
 
 ---
 ## 🚀 使用说明
